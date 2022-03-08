@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PROPERTIES>
+  <VALUE name="background" val="#1F1F1F"/>
+  <VALUE name="stepDisabled" val="#000000"/>
+  <VALUE name="stepOff" val="#2C2C2C"/>
+  <VALUE name="recordButtonActive" val="#FF9300"/>
+  <VALUE name="recordButtonPassive" val="#000000"/>
+  <VALUE name="playIndicatorOff" val="#484848"/>
+  <VALUE name="playIndicatorOn" val="#FF9300"/>
+  <VALUE name="button" val="#B4B4B4"/>
+  <VALUE name="interact" val="#B4B4B4"/>
+  <VALUE name="border" val="#000000"/>
+  <VALUE name="stepNeverProb" val="#000000"/>
+  <VALUE name="stepLowProb" val="#DCC7AB"/>
+  <VALUE name="stepMediumProb" val="#F1BB72"/>
+  <VALUE name="stepHighProb" val="#E18540"/>
+  <VALUE name="stepLowVel" val="#DCC7AB"/>
+  <VALUE name="stepMedVel" val="#F1BB72"/>
+  <VALUE name="stepHighVel" val="#E18540"/>
+  <VALUE name="noteEditable" val="#2C2C2C"/>
+  <VALUE name="noteLocked" val="#0D0D0D"/>
+  <VALUE name="toggleOff" val="#0D0D0D"/>
+  <VALUE name="toggleOn" val="#B4B4B4"/>
+  <VALUE name="measureStart" val="#000000"/>
+  <VALUE name="beatStart" val="#161616"/>
+  <VALUE name="grooveEdit" val="#FF9300"/>
+  <VALUE name="ghostedNotes" val="0"/>
+  <VALUE name="cellSelection" val="#FD6C00"/>
+  <VALUE name="chainPositive" val="#FFEE58"/>
+  <VALUE name="chainNegative" val="#BC0000"/>
+  <VALUE name="chainPositiveSel" val="#FFEE58"/>
+  <VALUE name="chainNegativeSel" val="#BC0000"/>
+  <VALUE name="alertBackground" val="#BC0000"/>
+</PROPERTIES>
