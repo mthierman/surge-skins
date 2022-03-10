@@ -1,16 +1,16 @@
 # [Skins](https://surge-synthesizer.github.io/skin-library) for [Surge Synthesizer](https://surge-synthesizer.github.io/)
 
-## [Download Stochas Skin Pack](https://github.com/rovingeye/surge-skins/releases/download/skins/stochas-skins.zip)
+### [Download Stochas Skin Pack](https://github.com/rovingeye/surge-skins/releases/download/skins/stochas-skins.zip)
 
-## [Download Surge Skin Pack](https://github.com/rovingeye/surge-skins/releases/download/skins/surge-skins.zip)
+### [Download Surge Skin Pack](https://github.com/rovingeye/surge-skins/releases/download/skins/surge-skins.zip)
 
-# Individual Surge Skins:
+## Individual Surge Skins:
 
-## [MODERN DARK](https://github.com/rovingeye/surge-skins/releases/download/skins/modern-dark-xt.surge-skin.zip)
+### [MODERN DARK](https://github.com/rovingeye/surge-skins/releases/download/skins/modern-dark-xt.surge-skin.zip)
 ![Modern Dark](/screenshots/modern-dark.png)
 
-## [MODERN DARK BLUE](https://github.com/rovingeye/surge-skins/releases/download/skins/modern-dark-blue-xt.surge-skin.zip)
+### [MODERN DARK BLUE](https://github.com/rovingeye/surge-skins/releases/download/skins/modern-dark-blue-xt.surge-skin.zip)
 ![Modern Dark Blue](/screenshots/modern-dark-blue.png)
 
-## [DARK PURPLE](https://github.com/rovingeye/surge-skins/releases/download/skins/dark-purple-xt.surge-skin.zip)
+### [DARK PURPLE](https://github.com/rovingeye/surge-skins/releases/download/skins/dark-purple-xt.surge-skin.zip)
 ![Dark Purple](/screenshots/dark-purple.png)
