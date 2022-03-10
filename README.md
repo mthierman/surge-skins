@@ -1,12 +1,10 @@
-# Surge Skins
+# [Skins](https://surge-synthesizer.github.io/skin-library) for [Surge Synthesizer](https://surge-synthesizer.github.io/)
 
-## [Skins](https://surge-synthesizer.github.io/skin-library) for [Surge Synthesizer](https://surge-synthesizer.github.io/)
-
-### MODERN DARK
+## MODERN DARK
 ![Modern Dark](/screenshots/modern-dark.png)
 
-### MODERN DARK BLUE
+## MODERN DARK BLUE
 ![Modern Dark Blue](/screenshots/modern-dark-blue.png)
 
-### DARK PURPLE
+## DARK PURPLE
 ![Dark Purple](/screenshots/dark-purple.png)
