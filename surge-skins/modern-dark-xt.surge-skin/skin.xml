@@ -34,11 +34,23 @@
     <color id="blue3" value="#2D86FE40"/>
     <color id="debug" value="#FF00D6"/>
 
+
+
+
+
+
+
+
+
+
+
+
+
     <color id="about.page.column.text" value="white2"/>
     <color id="about.page.hover.link" value="gold"/>
     <color id="about.page.link" value="orange"/>
     <color id="about.page.text" value="white2"/>
-    <color id="dialog.background" value="grey5"/>
+    <color id="dialog.background" value="#111111"/>
     <color id="dialog.border" value="greydots"/>
     <color id="dialog.button.background" value="orange"/>
     <color id="dialog.button.border" value="orange"/>
@@ -54,11 +66,11 @@
     <color id="dialog.checkbox.tick" value="orange"/>
     <color id="dialog.label.text" value="white2"/>
     <color id="dialog.label.text.error" value="error"/>
-    <color id="dialog.textfield.background" value="#111111"/>
+    <color id="dialog.textfield.background" value="#202020"/>
     <color id="dialog.textfield.border" value="greydots"/>
     <color id="dialog.textfield.caret" value="orange"/>
     <color id="dialog.textfield.focus" value="#FFEE5840"/>
-    <color id="dialog.textfield.text" value="orange"/>
+    <color id="dialog.textfield.text" value="#FFB357"/>
     <color id="dialog.titlebar.background" value="#111111"/>
     <color id="dialog.titlebar.text" value="orange"/>
     <color id="editor.overlay.background" value="#000000C0"/>
@@ -117,9 +129,9 @@
     <color id="formulaeditor.lua.number" value="white"/>
     <color id="formulaeditor.lua.string" value="white2"/>
     <color id="formulaeditor.text" value="white2"/>
-    <color id="infowindow.background" value="orange"/>
-    <color id="infowindow.border" value="black"/>
-    <color id="infowindow.text" value="black"/>
+    <color id="infowindow.background" value="#101010"/>
+    <color id="infowindow.border" value="#202020"/>
+    <color id="infowindow.text" value="#FFB357"/>
     <color id="infowindow.text.modulation.negative" value="black"/>
     <color id="infowindow.text.modulation.positive" value="black"/>
     <color id="infowindow.text.modulation.value.negative" value="black"/>
@@ -246,6 +258,11 @@
     <color id="osc.waveform" value="orange"/>
     <color id="osc.waveform.animated" value="orange"/>
     <color id="osc.waveform.dots" value="#FF900026"/>
+    <color id="osc.waveform3d.current" value="orange"/>
+    <color id="osc.waveform3d.fill.gradient.end" value="#00000032"/>
+    <color id="osc.waveform3d.fill.gradient.start" value="#FFEE5832"/>
+    <color id="osc.waveform3d.gradient.end" value="black"/>
+    <color id="osc.waveform3d.gradient.start" value="gold"/>
     <color id="osc.wavename.background" value="orange"/>
     <color id="osc.wavename.background.hover" value="orange4"/>
     <color id="osc.wavename.frame" value="orange"/>
@@ -253,17 +270,22 @@
     <color id="osc.wavename.text" value="black"/>
     <color id="osc.wavename.text.hover" value="black"/>
     <color id="patchbrowser.text" value="orange"/>
-    <color id="patchbrowser.tooltip.background" value="orange"/>
-    <color id="patchbrowser.tooltip.border" value="black"/>
-    <color id="patchbrowser.tooltip.text" value="black"/>
+    <color id="patchbrowser.tooltip.background" value="#101010"/>
+    <color id="patchbrowser.tooltip.border" value="#101010"/>
+    <color id="patchbrowser.tooltip.text" value="#FFB357"/>
     <color id="patchbrowser.typeahead.background" value="#000000C0"/>
-    <color id="patchbrowser.typeahead.background.highlight" value="#000000C0"/>
+    <color id="patchbrowser.typeahead.background.highlight" value="#FFEE5840"/>
     <color id="patchbrowser.typeahead.border" value="black"/>
     <color id="patchbrowser.typeahead.separator" value="grey"/>
     <color id="patchbrowser.typeahead.subtext" value="white2"/>
-    <color id="patchbrowser.typeahead.subtext.highlight" value="gold"/>
+    <color id="patchbrowser.typeahead.subtext.highlight" value="white"/>
     <color id="patchbrowser.typeahead.text" value="orange"/>
-    <color id="patchbrowser.typeahead.text.highlight" value="gold"/>
+    <color id="patchbrowser.typeahead.text.highlight" value="#FFB357"/>
+    <color id="popupmenu.background" value="#111111"/>
+    <color id="popupmenu.background.highlight" value="#FFEE5840"/>
+    <color id="popupmenu.text" value="white2"/>
+    <color id="popupmenu.text.header" value="orange"/>
+    <color id="popupmenu.text.highlight" value="#FFB357"/>
     <color id="scene.keytrackroot.text" value="black"/>
     <color id="scene.keytrackroot.text.hover" value="black"/>
     <color id="scene.pbrange.text" value="black"/>

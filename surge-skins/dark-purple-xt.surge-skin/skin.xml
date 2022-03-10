@@ -50,7 +50,7 @@
     <color id="about.page.hover.link" value="white2"/>
     <color id="about.page.link" value="purple"/>
     <color id="about.page.text" value="white"/>
-    <color id="dialog.background" value="black"/>
+    <color id="dialog.background" value="#111111"/>
     <color id="dialog.border" value="black"/>
     <color id="dialog.button.background" value="#242424"/>
     <color id="dialog.button.border" value="purple"/>
@@ -66,7 +66,7 @@
     <color id="dialog.checkbox.tick" value="#C2A5FF"/>
     <color id="dialog.label.text" value="white"/>
     <color id="dialog.label.text.error" value="red"/>
-    <color id="dialog.textfield.background" value="#3C225F"/>
+    <color id="dialog.textfield.background" value="#0d0315"/>
     <color id="dialog.textfield.border" value="#3C225F"/>
     <color id="dialog.textfield.caret" value="#C2A5FF"/>
     <color id="dialog.textfield.focus" value="#C2A5FF33"/>
@@ -129,9 +129,9 @@
     <color id="formulaeditor.lua.number" value="white"/>
     <color id="formulaeditor.lua.string" value="white2"/>
     <color id="formulaeditor.text" value="white2"/>
-    <color id="infowindow.background" value="black"/>
-    <color id="infowindow.border" value="#3C225F"/>
-    <color id="infowindow.text" value="white"/>
+    <color id="infowindow.background" value="#0d0315"/>
+    <color id="infowindow.border" value="#0d0315"/>
+    <color id="infowindow.text" value="#C2A5FF"/>
     <color id="infowindow.text.modulation.negative" value="white"/>
     <color id="infowindow.text.modulation.positive" value="white"/>
     <color id="infowindow.text.modulation.value.negative" value="white"/>
@@ -258,6 +258,11 @@
     <color id="osc.waveform" value="purple"/>
     <color id="osc.waveform.animated" value="white"/>
     <color id="osc.waveform.dots" value="grey"/>
+    <color id="osc.waveform3d.current" value="purple"/>
+    <color id="osc.waveform3d.fill.gradient.end" value="#00000032"/>
+    <color id="osc.waveform3d.fill.gradient.start" value="#7432FF32"/>
+    <color id="osc.waveform3d.gradient.end" value="black"/>
+    <color id="osc.waveform3d.gradient.start" value="purple"/>
     <color id="osc.wavename.background" value="purple"/>
     <color id="osc.wavename.background.hover" value="purple2"/>
     <color id="osc.wavename.frame" value="purple"/>
@@ -265,17 +270,22 @@
     <color id="osc.wavename.text" value="white2"/>
     <color id="osc.wavename.text.hover" value="black"/>
     <color id="patchbrowser.text" value="#C2A5FF"/>
-    <color id="patchbrowser.tooltip.background" value="purple"/>
-    <color id="patchbrowser.tooltip.border" value="black"/>
-    <color id="patchbrowser.tooltip.text" value="black"/>
-    <color id="patchbrowser.typeahead.background" value="#000000C0"/>
-    <color id="patchbrowser.typeahead.background.highlight" value="#000000C0"/>
+    <color id="patchbrowser.tooltip.background" value="#0d0315"/>
+    <color id="patchbrowser.tooltip.border" value="#0d0315"/>
+    <color id="patchbrowser.tooltip.text" value="#C2A5FF"/>
+    <color id="patchbrowser.typeahead.background" value="#0d0315C0"/>
+    <color id="patchbrowser.typeahead.background.highlight" value="#C2A5FF33"/>
     <color id="patchbrowser.typeahead.border" value="black"/>
     <color id="patchbrowser.typeahead.separator" value="grey"/>
     <color id="patchbrowser.typeahead.subtext" value="white"/>
     <color id="patchbrowser.typeahead.subtext.highlight" value="white2"/>
     <color id="patchbrowser.typeahead.text" value="#C2A5FF"/>
-    <color id="patchbrowser.typeahead.text.highlight" value="white2"/>
+    <color id="patchbrowser.typeahead.text.highlight" value="#DBCCFF"/>
+    <color id="popupmenu.background" value="#111111"/>
+    <color id="popupmenu.background.highlight" value="#C2A5FF33"/>
+    <color id="popupmenu.text" value="white2"/>
+    <color id="popupmenu.text.header" value="#C2A5FF"/>
+    <color id="popupmenu.text.highlight" value="#DBCCFF"/>
     <color id="scene.keytrackroot.text" value="white"/>
     <color id="scene.keytrackroot.text.hover" value="black"/>
     <color id="scene.pbrange.text" value="white"/>
