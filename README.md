@@ -1,4 +1,4 @@
-# [Skins](https://surge-synthesizer.github.io/skin-library) for [Surge Synthesizer](https://surge-synthesizer.github.io/)
+# [Skins](https://surge-synthesizer.github.io/skin-library) for [Surge Synthesizer](https://surge-synthesizer.github.io/) & [Stochas](https://stochas.org/)
 
 ### [Download Stochas Skin Pack](https://github.com/rovingeye/surge-skins/releases/download/skins/stochas-skins.zip)
 
