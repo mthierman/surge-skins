@@ -27,8 +27,8 @@
     <color id="grey4" value="#242424"/>
     <color id="grey5" value="#202020"/>
     <color id="grey6" value="#6C6C6C"/>
-    <color id="error" value="#BC0000"/>
-    <color id="gold" value="#FFEE58"/>
+    <color id="error" value="#830B0B"/>
+    <color id="gold" value="#FFEE58CC"/>
     <color id="blue" value="#60ACCC"/>
     <color id="blue2" value="#60ACCC80"/>
     <color id="blue3" value="#2D86FE40"/>
@@ -50,74 +50,74 @@
     <color id="about.page.hover.link" value="gold"/>
     <color id="about.page.link" value="orange"/>
     <color id="about.page.text" value="white2"/>
-    <color id="dialog.background" value="#111111"/>
+    <color id="dialog.background" value="black"/>
     <color id="dialog.border" value="greydots"/>
-    <color id="dialog.button.background" value="orange"/>
-    <color id="dialog.button.border" value="orange"/>
-    <color id="dialog.button.hover.background" value="orange4"/>
-    <color id="dialog.button.hover.border" value="orange4"/>
-    <color id="dialog.button.hover.text" value="black"/>
+    <color id="dialog.button.background" value="black"/>
+    <color id="dialog.button.border" value="greydots"/>
+    <color id="dialog.button.hover.background" value="black"/>
+    <color id="dialog.button.hover.border" value="black"/>
+    <color id="dialog.button.hover.text" value="gold"/>
     <color id="dialog.button.pressed.background" value="black"/>
     <color id="dialog.button.pressed.border" value="black"/>
-    <color id="dialog.button.pressed.text" value="orange"/>
-    <color id="dialog.button.text" value="black"/>
-    <color id="dialog.checkbox.background" value="#111111"/>
+    <color id="dialog.button.pressed.text" value="white2"/>
+    <color id="dialog.button.text" value="white2"/>
+    <color id="dialog.checkbox.background" value="black"/>
     <color id="dialog.checkbox.border" value="white2"/>
-    <color id="dialog.checkbox.tick" value="orange"/>
+    <color id="dialog.checkbox.tick" value="white2"/>
     <color id="dialog.label.text" value="white2"/>
     <color id="dialog.label.text.error" value="error"/>
-    <color id="dialog.textfield.background" value="#202020"/>
+    <color id="dialog.textfield.background" value="#101010"/>
     <color id="dialog.textfield.border" value="greydots"/>
-    <color id="dialog.textfield.caret" value="orange"/>
-    <color id="dialog.textfield.focus" value="#FFEE5840"/>
-    <color id="dialog.textfield.text" value="#FFB357"/>
-    <color id="dialog.titlebar.background" value="#111111"/>
-    <color id="dialog.titlebar.text" value="orange"/>
+    <color id="dialog.textfield.caret" value="gold"/>
+    <color id="dialog.textfield.focus" value="#E4E4E440"/>
+    <color id="dialog.textfield.text" value="white2"/>
+    <color id="dialog.titlebar.background" value="#101010"/>
+    <color id="dialog.titlebar.text" value="white2"/>
     <color id="editor.overlay.background" value="#000000C0"/>
     <color id="effect.grid.border" value="#B4B4B480"/>
-    <color id="effect.grid.bypassed.background" value="black"/>
-    <color id="effect.grid.bypassed.background.hover" value="black"/>
-    <color id="effect.grid.bypassed.border" value="black"/>
+    <color id="effect.grid.bypassed.background" value="grey5"/>
+    <color id="effect.grid.bypassed.background.hover" value="grey5"/>
+    <color id="effect.grid.bypassed.border" value="grey5"/>
     <color id="effect.grid.bypassed.border.hover" value="gold"/>
-    <color id="effect.grid.bypassed.selected.background" value="black"/>
-    <color id="effect.grid.bypassed.selected.background.hover" value="black"/>
-    <color id="effect.grid.bypassed.selected.border" value="orange"/>
+    <color id="effect.grid.bypassed.selected.background" value="grey5"/>
+    <color id="effect.grid.bypassed.selected.background.hover" value="grey5"/>
+    <color id="effect.grid.bypassed.selected.border" value="gold"/>
     <color id="effect.grid.bypassed.selected.border.hover" value="gold"/>
-    <color id="effect.grid.bypassed.selected.text" value="white2"/>
-    <color id="effect.grid.bypassed.selected.text.hover" value="white2"/>
-    <color id="effect.grid.bypassed.text" value="white2"/>
-    <color id="effect.grid.bypassed.text.hover" value="white2"/>
-    <color id="effect.grid.scene.background" value="orange"/>
-    <color id="effect.grid.scene.background.hover" value="orange"/>
-    <color id="effect.grid.scene.border" value="orange"/>
+    <color id="effect.grid.bypassed.selected.text" value="#A4A4A4"/>
+    <color id="effect.grid.bypassed.selected.text.hover" value="gold"/>
+    <color id="effect.grid.bypassed.text" value="#A4A4A4"/>
+    <color id="effect.grid.bypassed.text.hover" value="gold"/>
+    <color id="effect.grid.scene.background" value="black"/>
+    <color id="effect.grid.scene.background.hover" value="black"/>
+    <color id="effect.grid.scene.border" value="#B4B4B480"/>
     <color id="effect.grid.scene.border.hover" value="gold"/>
-    <color id="effect.grid.scene.text" value="black"/>
-    <color id="effect.grid.scene.text.hover" value="black"/>
-    <color id="effect.grid.selected.background" value="grey5"/>
-    <color id="effect.grid.selected.background.hover" value="grey5"/>
-    <color id="effect.grid.selected.border" value="orange"/>
+    <color id="effect.grid.scene.text" value="white2"/>
+    <color id="effect.grid.scene.text.hover" value="gold"/>
+    <color id="effect.grid.selected.background" value="black"/>
+    <color id="effect.grid.selected.background.hover" value="black"/>
+    <color id="effect.grid.selected.border" value="gold"/>
     <color id="effect.grid.selected.border.hover" value="gold"/>
     <color id="effect.grid.selected.text" value="orange"/>
-    <color id="effect.grid.selected.text.hover" value="orange"/>
-    <color id="effect.grid.unselected.background" value="grey5"/>
-    <color id="effect.grid.unselected.background.hover" value="grey5"/>
+    <color id="effect.grid.selected.text.hover" value="gold"/>
+    <color id="effect.grid.unselected.background" value="black"/>
+    <color id="effect.grid.unselected.background.hover" value="black"/>
     <color id="effect.grid.unselected.border" value="#B4B4B480"/>
     <color id="effect.grid.unselected.border.hover" value="gold"/>
-    <color id="effect.grid.unselected.text" value="white2"/>
-    <color id="effect.grid.unselected.text.hover" value="white2"/>
-    <color id="effect.label.presetname" value="orange"/>
-    <color id="effect.label.separator" value="#484848"/>
+    <color id="effect.grid.unselected.text" value="orange"/>
+    <color id="effect.grid.unselected.text.hover" value="gold"/>
+    <color id="effect.label.presetname" value="white2"/>
+    <color id="effect.label.separator" value="#00000000"/>
     <color id="effect.label.text" value="white2"/>
-    <color id="effect.menu.text" value="black"/>
-    <color id="effect.menu.text.hover" value="black"/>
-    <color id="filtermenu.value" value="black"/>
-    <color id="filtermenu.value.hover" value="black"/>
+    <color id="effect.menu.text" value="white2"/>
+    <color id="effect.menu.text.hover" value="white2"/>
+    <color id="filtermenu.value" value="white2"/>
+    <color id="filtermenu.value.hover" value="white2"/>
     <color id="formulaeditor.background" value="black"/>
     <color id="formulaeditor.debugger.row.primary" value="grey5"/>
     <color id="formulaeditor.debugger.row.secondary" value="#3D3D3D"/>
     <color id="formulaeditor.debugger.text" value="white2"/>
     <color id="formulaeditor.debugger.text.subscriptions" value="orange"/>
-    <color id="formulaeditor.highlight" value="#FFEE5840"/>
+    <color id="formulaeditor.highlight" value="#E4E4E440"/>
     <color id="formulaeditor.linenumber.background" value="grey5"/>
     <color id="formulaeditor.linenumber.text" value="white2"/>
     <color id="formulaeditor.lua.bracket" value="gold"/>
@@ -130,12 +130,12 @@
     <color id="formulaeditor.lua.string" value="white2"/>
     <color id="formulaeditor.text" value="white2"/>
     <color id="infowindow.background" value="#101010"/>
-    <color id="infowindow.border" value="#202020"/>
-    <color id="infowindow.text" value="#FFB357"/>
-    <color id="infowindow.text.modulation.negative" value="black"/>
-    <color id="infowindow.text.modulation.positive" value="black"/>
-    <color id="infowindow.text.modulation.value.negative" value="black"/>
-    <color id="infowindow.text.modulation.value.positive" value="black"/>
+    <color id="infowindow.border" value="#101010"/>
+    <color id="infowindow.text" value="orange"/>
+    <color id="infowindow.text.modulation.negative" value="#830B0B"/>
+    <color id="infowindow.text.modulation.positive" value="#830B0B"/>
+    <color id="infowindow.text.modulation.value.negative" value="#830B0B"/>
+    <color id="infowindow.text.modulation.value.positive" value="#830B0B"/>
     <color id="lfo.stepseq.background" value="#FFFFFF00"/>
     <color id="lfo.stepseq.button.arrow" value="white2"/>
     <color id="lfo.stepseq.button.arrow.hover" value="white2"/>
@@ -153,7 +153,7 @@
     <color id="lfo.stepseq.popup.background" value="orange"/>
     <color id="lfo.stepseq.popup.border" value="black"/>
     <color id="lfo.stepseq.popup.text" value="black"/>
-    <color id="lfo.stepseq.step.fill" value="blue"/>
+    <color id="lfo.stepseq.step.fill" value="white2"/>
     <color id="lfo.stepseq.step.fill.deactivated" value="#101010"/>
     <color id="lfo.stepseq.step.fill.outside" value="#101010"/>
     <color id="lfo.stepseq.trigger.click" value="orange"/>
@@ -163,139 +163,141 @@
     <color id="lfo.type.selected.text" value="white2"/>
     <color id="lfo.type.unselected.text" value="white2"/>
     <color id="lfo.waveform.background" value="#00000059"/>
-    <color id="lfo.waveform.bounds" value="#60ACCC26"/>
-    <color id="lfo.waveform.center" value="#60ACCC26"/>
-    <color id="lfo.waveform.dots" value="#60ACCC26"/>
-    <color id="lfo.waveform.envelope" value="greydots"/>
+    <color id="lfo.waveform.bounds" value="#E4E4E440"/>
+    <color id="lfo.waveform.center" value="#E4E4E440"/>
+    <color id="lfo.waveform.dots" value="#E4E4E440"/>
+    <color id="lfo.waveform.envelope" value="#E4E4E440"/>
     <color id="lfo.waveform.ruler.text" value="white2"/>
     <color id="lfo.waveform.ruler.ticks" value="white2"/>
     <color id="lfo.waveform.ruler.ticks.extended" value="white2"/>
     <color id="lfo.waveform.ruler.ticks.small" value="white2"/>
-    <color id="lfo.waveform.wave" value="blue"/>
+    <color id="lfo.waveform.wave" value="white2"/>
     <color id="lfo.waveform.wave.deactivated" value="#FFFFFF80"/>
     <color id="lfo.waveform.wave.ghosted" value="#FFFFFF80"/>
-    <color id="menu.name" value="black"/>
-    <color id="menu.name.deactivated" value="#565656"/>
-    <color id="menu.name.hover" value="black"/>
-    <color id="menu.value" value="black"/>
-    <color id="menu.value.deactivated" value="#565656"/>
-    <color id="menu.value.hover" value="black"/>
-    <color id="modbutton.armed.fill" value="blue"/>
-    <color id="modbutton.armed.frame" value="grey"/>
+    <color id="menu.name" value="white2"/>
+    <color id="menu.name.deactivated" value="#A4A4A4"/>
+    <color id="menu.name.hover" value="white2"/>
+    <color id="menu.value" value="white2"/>
+    <color id="menu.value.deactivated" value="#A4A4A4"/>
+    <color id="menu.value.hover" value="white2"/>
+    <color id="modbutton.armed.fill" value="#830B0B"/>
+    <color id="modbutton.armed.frame" value="gold"/>
     <color id="modbutton.armed.frame.hover" value="gold"/>
-    <color id="modbutton.armed.text" value="black"/>
-    <color id="modbutton.armed.text.hover" value="black"/>
-    <color id="modbutton.armed.text.usedmod.hover" value="black"/>
+    <color id="modbutton.armed.text" value="white2"/>
+    <color id="modbutton.armed.text.hover" value="gold"/>
+    <color id="modbutton.armed.text.usedmod.hover" value="gold"/>
     <color id="modbutton.macro.slider.background" value="#484848"/>
-    <color id="modbutton.macro.slider.currentvalue" value="white2"/>
-    <color id="modbutton.macro.slider.fill" value="blue2"/>
+    <color id="modbutton.macro.slider.currentvalue" value="black"/>
+    <color id="modbutton.macro.slider.fill" value="white2"/>
     <color id="modbutton.selected.fill" value="grey5"/>
-    <color id="modbutton.selected.frame" value="orange"/>
+    <color id="modbutton.selected.frame" value="gold"/>
     <color id="modbutton.selected.frame.hover" value="gold"/>
-    <color id="modbutton.selected.text" value="orange"/>
-    <color id="modbutton.selected.text.hover" value="orange"/>
-    <color id="modbutton.selected.text.usedmod.hover" value="orange"/>
-    <color id="modbutton.selected.used.fill" value="grey5"/>
-    <color id="modbutton.selected.used.frame" value="orange"/>
+    <color id="modbutton.selected.text" value="white2"/>
+    <color id="modbutton.selected.text.hover" value="gold"/>
+    <color id="modbutton.selected.text.usedmod.hover" value="gold"/>
+    <color id="modbutton.selected.used.fill" value="black"/>
+    <color id="modbutton.selected.used.frame" value="gold"/>
     <color id="modbutton.selected.used.frame.hover" value="gold"/>
-    <color id="modbutton.selected.used.text" value="blue"/>
-    <color id="modbutton.selected.used.text.hover" value="blue"/>
-    <color id="modbutton.selected.used.text.usedmod.hover" value="blue"/>
+    <color id="modbutton.selected.used.text" value="orange"/>
+    <color id="modbutton.selected.used.text.hover" value="gold"/>
+    <color id="modbutton.selected.used.text.usedmod.hover" value="gold"/>
     <color id="modbutton.unused.fill" value="grey5"/>
     <color id="modbutton.unused.frame" value="#B4B4B480"/>
     <color id="modbutton.unused.frame.hover" value="gold"/>
     <color id="modbutton.unused.text" value="white2"/>
-    <color id="modbutton.unused.text.hover" value="white2"/>
-    <color id="modbutton.used.fill" value="grey5"/>
-    <color id="modbutton.used.frame" value="blue"/>
+    <color id="modbutton.unused.text.hover" value="gold"/>
+    <color id="modbutton.used.fill" value="black"/>
+    <color id="modbutton.used.frame" value="#B4B4B480"/>
     <color id="modbutton.used.frame.hover" value="gold"/>
-    <color id="modbutton.used.text" value="blue"/>
-    <color id="modbutton.used.text.hover" value="blue"/>
-    <color id="modbutton.used.text.usedmod.hover" value="blue"/>
-    <color id="modlist.arrows" value="blue"/>
-    <color id="modlist.border" value="white2"/>
+    <color id="modbutton.used.text" value="orange"/>
+    <color id="modbutton.used.text.hover" value="gold"/>
+    <color id="modbutton.used.text.usedmod.hover" value="gold"/>
+    <color id="modlist.arrows" value="white2"/>
+    <color id="modlist.border" value="black"/>
     <color id="modlist.text.dimmed" value="grey6"/>
     <color id="modlist.text" value="white2"/>
     <color id="msegeditor.axis.line" value="#FFFFFF40"/>
     <color id="msegeditor.axis.text" value="white2"/>
     <color id="msegeditor.axis.text.secondary" value="white2"/>
     <color id="msegeditor.background" value="grey5"/>
-    <color id="msegeditor.curve" value="blue"/>
+    <color id="msegeditor.curve" value="white2"/>
     <color id="msegeditor.curve.deformed" value="#FFFFFF40"/>
     <color id="msegeditor.curve.highlight" value="gold"/>
-    <color id="msegeditor.fill.gradient.end" value="black"/>
-    <color id="msegeditor.fill.gradient.start" value="blue3"/>
+    <color id="msegeditor.fill.gradient.end" value="#00000080"/>
+    <color id="msegeditor.fill.gradient.start" value="#DBDBDB80"/>
     <color id="msegeditor.grid.primary" value="#FFFFFF40"/>
     <color id="msegeditor.grid.secondary.horizontal" value="#FFFFFF33"/>
     <color id="msegeditor.grid.secondary.vertical" value="#FFFFFF33"/>
     <color id="msegeditor.loop.marker" value="#FFFFFF4C"/>
     <color id="msegeditor.loop.region.axis" value="#FFFFFF33"/>
-    <color id="msegeditor.loop.region.border" value="blue"/>
+    <color id="msegeditor.loop.region.border" value="orange"/>
     <color id="msegeditor.loop.region.fill" value="black"/>
-    <color id="msegeditor.numberfield.text" value="black"/>
-    <color id="msegeditor.numberfield.text.hover" value="black"/>
+    <color id="msegeditor.numberfield.text" value="white2"/>
+    <color id="msegeditor.numberfield.text.hover" value="gold"/>
     <color id="msegeditor.panel" value="#111111"/>
     <color id="msegeditor.panel.text" value="white2"/>
-    <color id="multiswitch.background" value="#242424"/>
-    <color id="multiswitch.border" value="#242424"/>
-    <color id="multiswitch.hover.fill" value="gold"/>
-    <color id="multiswitch.hover.text" value="black"/>
-    <color id="multiswitch.hoveron.border" value="orange4"/>
-    <color id="multiswitch.hoveron.fill" value="orange4"/>
-    <color id="multiswitch.hoveron.text" value="black"/>
-    <color id="multiswitch.on.fill" value="orange"/>
-    <color id="multiswitch.on.text" value="black"/>
-    <color id="multiswitch.separator" value="#4A4A4A"/>
+
+    <color id="multiswitch.background" value="black"/>
+    <color id="multiswitch.border" value="black"/>
+    <color id="multiswitch.hover.fill" value="black"/>
+    <color id="multiswitch.hover.text" value="gold"/>
+    <color id="multiswitch.hoveron.border" value="black"/>
+    <color id="multiswitch.hoveron.fill" value="black"/>
+    <color id="multiswitch.hoveron.text" value="gold"/>
+    <color id="multiswitch.on.fill" value="black"/>
+    <color id="multiswitch.on.text" value="orange"/>
+    <color id="multiswitch.separator" value="black"/>
     <color id="multiswitch.text" value="white2"/>
-    <color id="multiswitch.text.deactivated" value="#565656"/>
-    <color id="multiswitch.unpressed.highlight" value="#4A4A4A"/>
-    <color id="numberfield.text" value="black"/>
-    <color id="numberfield.text.hover" value="black"/>
-    <color id="osc.line.bounds" value="#FF900026"/>
-    <color id="osc.line.center" value="#FF900026"/>
-    <color id="osc.type.text" value="black"/>
-    <color id="osc.type.text.hover" value="black"/>
-    <color id="osc.waveform" value="orange"/>
-    <color id="osc.waveform.animated" value="orange"/>
-    <color id="osc.waveform.dots" value="#FF900026"/>
+    <color id="multiswitch.text.deactivated" value="#A4A4A4"/>
+    <color id="multiswitch.unpressed.highlight" value="black"/>
+
+    <color id="numberfield.text" value="white2"/>
+    <color id="numberfield.text.hover" value="gold"/>
+    <color id="osc.line.bounds" value="#E4E4E440"/>
+    <color id="osc.line.center" value="#E4E4E440"/>
+    <color id="osc.type.text" value="white2"/>
+    <color id="osc.type.text.hover" value="white2"/>
+    <color id="osc.waveform" value="white2"/>
+    <color id="osc.waveform.animated" value="white2"/>
+    <color id="osc.waveform.dots" value="#E4E4E440"/>
     <color id="osc.waveform3d.current" value="orange"/>
     <color id="osc.waveform3d.fill.gradient.end" value="#00000032"/>
     <color id="osc.waveform3d.fill.gradient.start" value="#FFEE5832"/>
     <color id="osc.waveform3d.gradient.end" value="black"/>
     <color id="osc.waveform3d.gradient.start" value="gold"/>
-    <color id="osc.wavename.background" value="orange"/>
-    <color id="osc.wavename.background.hover" value="orange4"/>
-    <color id="osc.wavename.frame" value="orange"/>
-    <color id="osc.wavename.frame.hover" value="orange4"/>
-    <color id="osc.wavename.text" value="black"/>
-    <color id="osc.wavename.text.hover" value="black"/>
-    <color id="patchbrowser.text" value="orange"/>
-    <color id="patchbrowser.tooltip.background" value="#101010"/>
-    <color id="patchbrowser.tooltip.border" value="#101010"/>
-    <color id="patchbrowser.tooltip.text" value="#FFB357"/>
-    <color id="patchbrowser.typeahead.background" value="#000000C0"/>
-    <color id="patchbrowser.typeahead.background.highlight" value="#FFEE5840"/>
-    <color id="patchbrowser.typeahead.border" value="black"/>
-    <color id="patchbrowser.typeahead.separator" value="grey"/>
+    <color id="osc.wavename.background" value="black"/>
+    <color id="osc.wavename.background.hover" value="black"/>
+    <color id="osc.wavename.frame" value="black"/>
+    <color id="osc.wavename.frame.hover" value="black"/>
+    <color id="osc.wavename.text" value="white2"/>
+    <color id="osc.wavename.text.hover" value="gold"/>
+    <color id="patchbrowser.text" value="white2"/>
+    <color id="patchbrowser.tooltip.background" value="#101010D9"/>
+    <color id="patchbrowser.tooltip.border" value="#101010D9"/>
+    <color id="patchbrowser.tooltip.text" value="white2"/>
+    <color id="patchbrowser.typeahead.background" value="#101010D9"/>
+    <color id="patchbrowser.typeahead.background.highlight" value="#E4E4E440"/>
+    <color id="patchbrowser.typeahead.border" value="#101010D9"/>
+    <color id="patchbrowser.typeahead.separator" value="#101010D9"/>
     <color id="patchbrowser.typeahead.subtext" value="white2"/>
-    <color id="patchbrowser.typeahead.subtext.highlight" value="white"/>
-    <color id="patchbrowser.typeahead.text" value="orange"/>
-    <color id="patchbrowser.typeahead.text.highlight" value="#FFB357"/>
+    <color id="patchbrowser.typeahead.subtext.highlight" value="white2"/>
+    <color id="patchbrowser.typeahead.text" value="white2"/>
+    <color id="patchbrowser.typeahead.text.highlight" value="white2"/>
     <color id="popupmenu.background" value="#111111"/>
-    <color id="popupmenu.background.highlight" value="#FFEE5840"/>
+    <color id="popupmenu.background.highlight" value="#E4E4E440"/>
     <color id="popupmenu.text" value="white2"/>
     <color id="popupmenu.text.header" value="orange"/>
-    <color id="popupmenu.text.highlight" value="#FFB357"/>
-    <color id="scene.keytrackroot.text" value="black"/>
-    <color id="scene.keytrackroot.text.hover" value="black"/>
-    <color id="scene.pbrange.text" value="black"/>
-    <color id="scene.pbrange.text.hover" value="black"/>
-    <color id="scene.split_poly.text" value="black"/>
-    <color id="scene.split_poly.text.hover" value="black"/>
+    <color id="popupmenu.text.highlight" value="white2"/>
+    <color id="scene.keytrackroot.text" value="white2"/>
+    <color id="scene.keytrackroot.text.hover" value="gold"/>
+    <color id="scene.pbrange.text" value="white2"/>
+    <color id="scene.pbrange.text.hover" value="gold"/>
+    <color id="scene.split_poly.text" value="white2"/>
+    <color id="scene.split_poly.text.hover" value="gold"/>
     <color id="slider.dark.label" value="white2"/>
     <color id="slider.light.label" value="white2"/>
-    <color id="slider.modulation.negative" value="orange"/>
-    <color id="slider.modulation.positive" value="orange"/>
+    <color id="slider.modulation.negative" value="#830B0B"/>
+    <color id="slider.modulation.positive" value="#830B0B"/>
     <!--
     <color id="tabbar.active.background" value=""/>
     <color id="tabbar.border" value=""/>
@@ -306,7 +308,7 @@
     <color id="tuningeditor.interval.background" value="black"/>
     <color id="tuningeditor.interval.heatmap.negative.far" value="orange"/>
     <color id="tuningeditor.interval.heatmap.negative.near" value="#777777"/>
-    <color id="tuningeditor.interval.heatmap.positive.far" value="blue"/>
+    <color id="tuningeditor.interval.heatmap.positive.far" value="#830B0B"/>
     <color id="tuningeditor.interval.heatmap.positive.near" value="#777777"/>
     <color id="tuningeditor.interval.heatmap.zero" value="#888888"/>
     <color id="tuningeditor.interval.notelabel.background" value="#333333"/>
@@ -354,17 +356,17 @@
     <color id="vkb.octave.background" value="black"/>
     <color id="vkb.shadow" value="black"/>
     <color id="vkb.text" value="black"/>
-    <color id="vumeter.background" value="black"/>
-    <color id="vumeter.border" value="#FFFFFF00"/>
+    <color id="vumeter.background" value="#101010"/>
+    <color id="vumeter.border" value="black"/>
     <color id="vumeter.unavailabletext" value="error"/>
-    <color id="waveshaper.preview.background" value="grey5"/>
-    <color id="waveshaper.preview.border" value="#FF900026"/>
+    <color id="waveshaper.preview.background" value="black"/>
+    <color id="waveshaper.preview.border" value="#E4E4E440"/>
     <color id="waveshaper.preview.text" value="white2"/>
-    <color id="waveshaper.text" value="orange"/>
-    <color id="waveshaper.text.hover" value="white2"/>
-    <color id="waveshaper.waveform" value="orange"/>
-    <color id="waveshaper.waveform.dots" value="#FF900026"/>
-    <color id="waveshaper.waveform.hover" value="white2"/>
+    <color id="waveshaper.text" value="white2"/>
+    <color id="waveshaper.text.hover" value="gold"/>
+    <color id="waveshaper.waveform" value="white2"/>
+    <color id="waveshaper.waveform.dots" value="#E4E4E440"/>
+    <color id="waveshaper.waveform.hover" value="gold"/>
 </globals>
 
 <component-classes>

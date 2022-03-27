@@ -69,10 +69,10 @@
     <color id="dialog.textfield.background" value="#202020"/>
     <color id="dialog.textfield.border" value="greydots"/>
     <color id="dialog.textfield.caret" value="blue"/>
-    <color id="dialog.textfield.focus" value="#369EB340"/>
-    <color id="dialog.textfield.text" value="blue"/>
-    <color id="dialog.titlebar.background" value="#111111"/>
-    <color id="dialog.titlebar.text" value="#6EC4D3"/>
+    <color id="dialog.textfield.focus" value="#E4E4E440"/>
+    <color id="dialog.textfield.text" value="white2"/>
+    <color id="dialog.titlebar.background" value="#000000"/>
+    <color id="dialog.titlebar.text" value="blue"/>
     <color id="editor.overlay.background" value="#000000C0"/>
     <color id="effect.grid.border" value="#B4B4B480"/>
     <color id="effect.grid.bypassed.background" value="black"/>
@@ -105,19 +105,19 @@
     <color id="effect.grid.unselected.border.hover" value="white2"/>
     <color id="effect.grid.unselected.text" value="white2"/>
     <color id="effect.grid.unselected.text.hover" value="white2"/>
-    <color id="effect.label.presetname" value="blue"/>
+    <color id="effect.label.presetname" value="white2"/>
     <color id="effect.label.separator" value="#484848"/>
     <color id="effect.label.text" value="white2"/>
-    <color id="effect.menu.text" value="black"/>
-    <color id="effect.menu.text.hover" value="black"/>
-    <color id="filtermenu.value" value="black"/>
-    <color id="filtermenu.value.hover" value="black"/>
+    <color id="effect.menu.text" value="white2"/>
+    <color id="effect.menu.text.hover" value="white2"/>
+    <color id="filtermenu.value" value="white2"/>
+    <color id="filtermenu.value.hover" value="white2"/>
     <color id="formulaeditor.background" value="grey5"/>
     <color id="formulaeditor.debugger.row.primary" value="grey5"/>
     <color id="formulaeditor.debugger.row.secondary" value="#3D3D3D"/>
     <color id="formulaeditor.debugger.text" value="white2"/>
     <color id="formulaeditor.debugger.text.subscriptions" value="blue"/>
-    <color id="formulaeditor.highlight" value="#369EB340"/>
+    <color id="formulaeditor.highlight" value="#E4E4E440"/>
     <color id="formulaeditor.linenumber.background" value="grey5"/>
     <color id="formulaeditor.linenumber.text" value="white2"/>
     <color id="formulaeditor.lua.bracket" value="blue"/>
@@ -174,12 +174,12 @@
     <color id="lfo.waveform.wave" value="blue"/>
     <color id="lfo.waveform.wave.deactivated" value="#FFFFFF80"/>
     <color id="lfo.waveform.wave.ghosted" value="#FFFFFF80"/>
-    <color id="menu.name" value="black"/>
+    <color id="menu.name" value="white2"/>
     <color id="menu.name.deactivated" value="#565656"/>
-    <color id="menu.name.hover" value="black"/>
-    <color id="menu.value" value="black"/>
+    <color id="menu.name.hover" value="white2"/>
+    <color id="menu.value" value="white2"/>
     <color id="menu.value.deactivated" value="#565656"/>
-    <color id="menu.value.hover" value="black"/>
+    <color id="menu.value.hover" value="white2"/>
     <color id="modbutton.armed.fill" value="blue"/>
     <color id="modbutton.armed.frame" value="grey"/>
     <color id="modbutton.armed.frame.hover" value="white2"/>
@@ -253,8 +253,8 @@
     <color id="numberfield.text.hover" value="black"/>
     <color id="osc.line.bounds" value="blue3"/>
     <color id="osc.line.center" value="blue3"/>
-    <color id="osc.type.text" value="black"/>
-    <color id="osc.type.text.hover" value="black"/>
+    <color id="osc.type.text" value="blue"/>
+    <color id="osc.type.text.hover" value="blue"/>
     <color id="osc.waveform" value="blue"/>
     <color id="osc.waveform.animated" value="blue"/>
     <color id="osc.waveform.dots" value="blue3"/>
@@ -269,23 +269,23 @@
     <color id="osc.wavename.frame.hover" value="#7cb6c2"/>
     <color id="osc.wavename.text" value="black"/>
     <color id="osc.wavename.text.hover" value="black"/>
-    <color id="patchbrowser.text" value="blue"/>
+    <color id="patchbrowser.text" value="white2"/>
     <color id="patchbrowser.tooltip.background" value="#101010"/>
     <color id="patchbrowser.tooltip.border" value="#101010"/>
-    <color id="patchbrowser.tooltip.text" value="#6EC4D3"/>
+    <color id="patchbrowser.tooltip.text" value="blue"/>
     <color id="patchbrowser.typeahead.background" value="#000000C0"/>
-    <color id="patchbrowser.typeahead.background.highlight" value="#369EB340"/>
+    <color id="patchbrowser.typeahead.background.highlight" value="#E4E4E440"/>
     <color id="patchbrowser.typeahead.border" value="black"/>
     <color id="patchbrowser.typeahead.separator" value="grey"/>
     <color id="patchbrowser.typeahead.subtext" value="white2"/>
-    <color id="patchbrowser.typeahead.subtext.highlight" value="white"/>
-    <color id="patchbrowser.typeahead.text" value="blue"/>
-    <color id="patchbrowser.typeahead.text.highlight" value="#6EC4D3"/>
+    <color id="patchbrowser.typeahead.subtext.highlight" value="blue"/>
+    <color id="patchbrowser.typeahead.text" value="white2"/>
+    <color id="patchbrowser.typeahead.text.highlight" value="blue"/>
     <color id="popupmenu.background" value="#111111"/>
-    <color id="popupmenu.background.highlight" value="#369EB340"/>
+    <color id="popupmenu.background.highlight" value="#E4E4E440"/>
     <color id="popupmenu.text" value="white2"/>
     <color id="popupmenu.text.header" value="blue"/>
-    <color id="popupmenu.text.highlight" value="#6EC4D3"/>
+    <color id="popupmenu.text.highlight" value="white2"/>
     <color id="scene.keytrackroot.text" value="black"/>
     <color id="scene.keytrackroot.text.hover" value="black"/>
     <color id="scene.pbrange.text" value="black"/>
