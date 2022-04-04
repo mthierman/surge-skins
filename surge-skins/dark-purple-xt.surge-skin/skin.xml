@@ -187,6 +187,7 @@
     <color id="modbutton.armed.text.hover" value="black"/>
     <color id="modbutton.armed.text.usedmod.hover" value="pink2"/>
     <color id="modbutton.macro.slider.background" value="#521D7D"/>
+    <color id="modbutton.macro.slider.border" value="#2D0E46"/>
     <color id="modbutton.macro.slider.currentvalue" value="white2"/>
     <color id="modbutton.macro.slider.fill" value="#936BB2"/>
     <color id="modbutton.selected.fill" value="#2D0E46"/>
