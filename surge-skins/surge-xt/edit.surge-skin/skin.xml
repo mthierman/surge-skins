@@ -393,5 +393,6 @@
     <control ui_identifier="controls.patch.save" x="170" y="28" w="17" h="12"/>
     <control ui_identifier="controls.action.undo" x="296" y="28"/>
     <control ui_identifier="controls.action.redo" x="307" y="28"/>
+
     </controls>
 </surge-skin>
