@@ -9,13 +9,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: List files in the repository
+      - name: List files
         run: ls ${{ github.workspace }}
-      - name: Publish
+      - name: Upload
         uses: actions/upload-artifact@v3
         with:
           name: modern-dark
           path: surge-skins/surge-xt/modern-dark-xt.surge-skin
+      - name: Release
+        uses: softprops/action-gh-release@v1
 
   Zip-Modern-Dark-Blue:
     runs-on: ubuntu-latest
