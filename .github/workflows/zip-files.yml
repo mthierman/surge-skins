@@ -15,16 +15,35 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: List
         run: ls ${{ github.workspace }}
-      - name: Zip
+
+      - name: Zip Modern Dark
         uses: vimtor/action-zip@v1
         with:
           files: surge-skins/surge-xt/modern-dark-xt.surge-skin
           dest: modern-dark.zip
+
+      - name: Zip Modern Dark Blue
+        uses: vimtor/action-zip@v1
+        with:
+          files: surge-skins/surge-xt/modern-dark-blue-xt.surge-skin
+          dest: modern-dark-blue.zip
+
+      - name: Zip Dark Purple
+        uses: vimtor/action-zip@v1
+        with:
+          files: surge-skins/surge-xt/dark-purple-xt.surge-skin
+          dest: dark-purple.zip
+
       - name: List files in the repository
         run: ls ${{ github.workspace }}
+
       - name: Release
         uses: softprops/action-gh-release@v0.1.14
         with:
-          files: modern-dark.zip
+          files: |
+          modern-dark.zip
+          modern-dark-blue.zip
+          dark-purple.zip
