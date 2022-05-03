@@ -48,4 +48,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Zip Folder
-          path: ${{ github.workspace }}
+          path: ${{ github.workspace }}/skins
