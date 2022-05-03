@@ -21,7 +21,6 @@ jobs:
           name: modern-dark
           path: surge-skins/surge-xt/modern-dark-xt.surge-skin
       - name: Release
-        uses: ncipollo/release-action@v1.10.0
+        uses: softprops/action-gh-release@v0.1.14
         with:
-          artifacts: "modern-dark.zip"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          files: modern-dark.zip
