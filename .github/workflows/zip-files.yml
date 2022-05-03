@@ -4,11 +4,15 @@ on: [push]
 
 jobs:
 
-  Zip-Modern-Dark:
+  Checkout:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
+  Zip-Modern-Dark:
+    runs-on: ubuntu-latest
+    steps:
       - name: Zip
         uses: vimtor/action-zip@v1
         with:
@@ -18,8 +22,6 @@ jobs:
   Zip-Modern-Dark-Blue:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
       - name: Zip
         uses: vimtor/action-zip@v1
         with:
@@ -29,8 +31,6 @@ jobs:
   Zip-Modern-Dark-Purple:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
       - name: Zip
         uses: vimtor/action-zip@v1
         with:
