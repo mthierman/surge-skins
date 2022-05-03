@@ -14,3 +14,5 @@ jobs:
         with:
           files: surge-skins/surge-xt/modern-dark-xt.surge-skin
           dest: modern-dark.zip
+          files: surge-skins/surge-xt/modern-dark-blue-xt.surge-skin
+          dest: modern-dark-blue.zip
