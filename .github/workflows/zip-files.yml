@@ -4,22 +4,18 @@ on: [push]
 
 jobs:
 
-  Checkout:
+  Zip-Modern-Dark:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
-  Zip-Modern-Dark:
-    runs-on: ubuntu-latest
-    steps:
       - name: List files in the repository
         run: ls ${{ github.workspace }}
       - name: Publish
         uses: actions/upload-artifact@v3
         with:
           name: modern-dark
-          path: surge-skins/surge-skins/surge-xt/modern-dark-xt.surge-skin
+          path: surge-skins/surge-xt/modern-dark-xt.surge-skin
 
   Zip-Modern-Dark-Blue:
     runs-on: ubuntu-latest
