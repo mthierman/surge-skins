@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 5
+          fetch-depth: 3
 
       - name: Zip Stochas
         run: zip -r stochas-skins.zip stochas-skins
@@ -28,12 +28,12 @@ jobs:
         run: zip -r dark-purple.zip surge-skins/surge-xt/dark-purple-xt.surge-skin
 
       - name: Release Notes
-        run: git --no-pager log -1 --oneline --no-decorate > release_notes.md
+        run: git --no-pager log -3 --oneline --no-decorate > release_notes.md
 
       - name: Release
         uses: softprops/action-gh-release@v0.1.14
         with:
-          tag_name: Skins
+          tag_name: skins
           name: Surge & Stochas Skins
           body_path: release_notes.md
           files: |
