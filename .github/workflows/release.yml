@@ -60,7 +60,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v0.1.14
         tag_name: Skins
-        name: Surge & Stochas Skins
+        name: Surge & Stochas
         with:
           body_path: release_notes.md
           files: |
