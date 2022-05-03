@@ -23,5 +23,5 @@ jobs:
       - name: Release
         uses: ncipollo/release-action@v1.10.0
         with:
-          artifacts: "modern-dark"
+          artifacts: "modern-dark.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
