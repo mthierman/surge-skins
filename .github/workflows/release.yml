@@ -22,10 +22,10 @@ jobs:
         run: zip -r stochas-skins.zip stochas-skins
 
       - name: Zip Dark Modern
-        run: zip -r dark-modern.zip surge-skins/surge-xt/modern-dark-xt.surge-skin
+        run: zip -r modern-dark.zip surge-skins/surge-xt/modern-dark-xt.surge-skin
 
       - name: Zip Dark Modern Blue
-        run: zip -r dark-modern-blue.zip surge-skins/surge-xt/modern-dark-blue-xt.surge-skin
+        run: zip -r modern-dark-blue.zip surge-skins/surge-xt/modern-dark-blue-xt.surge-skin
 
       - name: Zip Dark Purple
         run: zip -r dark-purple.zip surge-skins/surge-xt/dark-purple-xt.surge-skin
