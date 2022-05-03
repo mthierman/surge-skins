@@ -27,15 +27,18 @@ jobs:
       - name: Zip Dark Purple
         run: zip -r dark-purple.zip surge-skins/surge-xt/dark-purple-xt.surge-skin
 
+      - name: Release Notes Header
+        run: echo "Release Notes:\n" > release_notes.md
+
       - name: Release Notes
-        run: git --no-pager log -3 --oneline --no-decorate > gitlog.md
+        run: git --no-pager log -3 --oneline --no-decorate >> release_notes.md
 
       - name: Release
         uses: softprops/action-gh-release@v0.1.14
         with:
           tag_name: latest
           name: Download
-          body_path: gitlog.md
+          body_path: release_notes.md
           files: |
             stochas-skins.zip
             modern-dark.zip
