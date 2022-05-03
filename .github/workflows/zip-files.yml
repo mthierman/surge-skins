@@ -12,7 +12,7 @@ jobs:
       - name: Folder
         run: mkdir skins
       - name: List
-        run: ls ${{ github.workspace }}
+        run: ls ${{ github.workspace }}/skins
 
   Zip-Modern-Dark:
     runs-on: ubuntu-latest
@@ -44,6 +44,8 @@ jobs:
   Publish:
     runs-on: ubuntu-latest
     steps:
+      - name: List
+        run: ls ${{ github.workspace }}/skins
       - name: Publish
         uses: actions/upload-artifact@v3
         with:
