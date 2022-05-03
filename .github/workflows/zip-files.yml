@@ -22,7 +22,7 @@ jobs:
       - name: Zip Stochas
         uses: vimtor/action-zip@v1
         with:
-          files: stochas/skins
+          files: stochas-skins
           dest: stochas-skins.zip
 
       - name: Zip Modern Dark
