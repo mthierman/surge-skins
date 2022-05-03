@@ -1,0 +1,15 @@
+name: Zip Files
+
+on: push
+
+jobs:
+  zip-files:
+    name: Zip Files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Zip Files
+      - uses: actions/checkout@v3
+      - uses: vimtor/action-zip@v1
+        with:
+          files: surge-skins/surge-xt/modern-dark-xt.surge-skin/
+          dest: modern-dark.zip
