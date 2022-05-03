@@ -22,7 +22,7 @@ jobs:
         run: ls ${{ github.workspace }}
 
       - name: Zip Stochas
-        run: tar -zcf stochas-skins-tar.zip stochas-skins
+        run: zip -r stochas-skins-test.zip stochas-skins
 
       - name: Zip Stochas
         uses: vimtor/action-zip@v1
