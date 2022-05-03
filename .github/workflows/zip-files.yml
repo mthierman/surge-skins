@@ -44,6 +44,6 @@ jobs:
         uses: softprops/action-gh-release@v0.1.14
         with:
           files: |
-          modern-dark.zip
-          modern-dark-blue.zip
-          dark-purple.zip
+            modern-dark.zip
+            modern-dark-blue.zip
+            dark-purple.zip
