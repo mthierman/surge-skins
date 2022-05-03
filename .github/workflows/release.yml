@@ -23,9 +23,6 @@ jobs:
 
       - name: Zip Stochas
         run: tar -zcf stochas-skins-tar.zip stochas-skins
-        with:
-          files: stochas-skins
-          dest: stochas-skins.zip
 
       - name: Zip Stochas
         uses: vimtor/action-zip@v1
@@ -72,3 +69,4 @@ jobs:
             modern-dark.zip
             modern-dark-blue.zip
             dark-purple.zip
+            stochas-skins-tar.zip
