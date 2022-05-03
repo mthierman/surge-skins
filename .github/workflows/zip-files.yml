@@ -13,16 +13,14 @@ jobs:
   Zip-Modern-Dark:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Upload
-        uses: actions/upload-artifact@v3
+      - name: Zip
+        uses: vimtor/action-zip@v1
         with:
-          name: modern-dark
-          path: surge-skins/surge-xt/modern-dark-xt.surge-skin
+          files: surge-skins/surge-xt/modern-dark-xt.surge-skin
+          dest: modern-dark.zip
       - name: List files in the repository
         run: ls ${{ github.workspace }}
       - name: Release
         uses: softprops/action-gh-release@v0.1.14
         with:
-          files: modern-dark
+          files: modern-dark.zip
