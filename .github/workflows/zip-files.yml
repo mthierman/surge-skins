@@ -9,10 +9,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Folder
-        run: mkdir skins
-      - name: List
-        run: ls ${{ github.workspace }}/skins
 
   Zip-Modern-Dark:
     runs-on: ubuntu-latest
@@ -44,10 +40,8 @@ jobs:
   Publish:
     runs-on: ubuntu-latest
     steps:
-      - name: List
-        run: ls ${{ github.workspace }}/skins
       - name: Publish
         uses: actions/upload-artifact@v3
         with:
           name: Zip Folder
-          path: ${{ github.workspace }}/skins
+          path: skins/*
