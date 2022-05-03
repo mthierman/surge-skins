@@ -19,6 +19,12 @@ jobs:
       - name: List
         run: ls ${{ github.workspace }}
 
+      - name: Zip Stochas
+        uses: vimtor/action-zip@v1
+        with:
+          files: stochas/skins
+          dest: stochas-skins.zip
+
       - name: Zip Modern Dark
         uses: vimtor/action-zip@v1
         with:
