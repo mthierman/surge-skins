@@ -17,7 +17,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: modern-dark
-          path: surge-skins/surge-xt/modern-dark-xt.surge-skin
+          path: surge-skins/surge-skins/surge-xt/modern-dark-xt.surge-skin
 
   Zip-Modern-Dark-Blue:
     runs-on: ubuntu-latest
