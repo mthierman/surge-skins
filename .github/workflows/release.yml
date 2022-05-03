@@ -43,13 +43,19 @@ jobs:
           files: surge-skins/surge-xt/dark-purple-xt.surge-skin
           dest: dark-purple.zip
 
+      - name: Release Notes
+        run: git log --5 --online >> release_notes.md
+
+      - name: Read Release Notes
+        run: cat release_notes.md
+
       - name: List Files
         run: ls ${{ github.workspace }}
 
-      - name: Test
+      - name: Release
         uses: softprops/action-gh-release@v0.1.14
         with:
-          body: body_test
+          body_path: release_notes.md
           files: |
             stochas-skins.zip
             modern-dark.zip
