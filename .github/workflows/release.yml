@@ -22,6 +22,12 @@ jobs:
         run: ls ${{ github.workspace }}
 
       - name: Zip Stochas
+        run: tar -zcf stochas-skins-tar.zip stochas-skins
+        with:
+          files: stochas-skins
+          dest: stochas-skins.zip
+
+      - name: Zip Stochas
         uses: vimtor/action-zip@v1
         with:
           files: stochas-skins
@@ -66,4 +72,3 @@ jobs:
             modern-dark.zip
             modern-dark-blue.zip
             dark-purple.zip
-            release_notes.md
