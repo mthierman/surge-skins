@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: List files in the repository
-        run: ls
+        run: ls ${{ github.workspace }}
       - name: Publish
         uses: actions/upload-artifact@v3
         with:
