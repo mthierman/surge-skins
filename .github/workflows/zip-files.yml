@@ -18,6 +18,7 @@ jobs:
           path: surge-skins/surge-xt/modern-dark-xt.surge-skin
       - name: Release
         uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
         with:
           files: modern-dark
 
