@@ -11,6 +11,8 @@ jobs:
         uses: actions/checkout@v3
       - name: Folder
         run: mkdir skins
+      - name: List
+        run: ls ${{ github.workspace }}
 
   Zip-Modern-Dark:
     runs-on: ubuntu-latest
@@ -19,7 +21,7 @@ jobs:
         uses: vimtor/action-zip@v1
         with:
           files: surge-skins/surge-xt/modern-dark-xt.surge-skin
-          dest: skins/modern-dark.zip
+          dest: modern-dark.zip
 
   Zip-Modern-Dark-Blue:
     runs-on: ubuntu-latest
@@ -28,7 +30,7 @@ jobs:
         uses: vimtor/action-zip@v1
         with:
           files: surge-skins/surge-xt/modern-dark-blue-xt.surge-skin
-          dest: skins/modern-dark-blue.zip
+          dest: modern-dark-blue.zip
 
   Zip-Modern-Dark-Purple:
     runs-on: ubuntu-latest
@@ -37,7 +39,7 @@ jobs:
         uses: vimtor/action-zip@v1
         with:
           files: surge-skins/surge-xt/dark-purple-xt.surge-skin
-          dest: skins/dark-purple.zip
+          dest: dark-purple.zip
 
   Publish:
     runs-on: ubuntu-latest
@@ -46,4 +48,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Zip Folder
-          path: skins/
+          path: ${{ github.workspace }}
