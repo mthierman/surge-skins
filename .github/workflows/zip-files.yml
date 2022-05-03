@@ -13,16 +13,11 @@ jobs:
   Zip-Modern-Dark:
     runs-on: ubuntu-latest
     steps:
-      - name: Zip
-        uses: vimtor/action-zip@v1
-        with:
-          files: surge-skins/surge-xt/modern-dark-xt.surge-skin
-          dest: modern-dark.zip
       - name: Publish
         uses: actions/upload-artifact@v3
         with:
           name: modern-dark
-          path: modern-dark.zip
+          path: surge-skins/surge-xt/modern-dark-xt.surge-skin
 
   Zip-Modern-Dark-Blue:
     runs-on: ubuntu-latest
