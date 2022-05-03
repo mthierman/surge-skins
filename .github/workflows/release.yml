@@ -28,7 +28,7 @@ jobs:
         run: zip -r dark-purple.zip surge-skins/surge-xt/dark-purple-xt.surge-skin
 
       - name: Release Notes Header
-        run: echo "Release Notes:\n" > release_notes.md
+        run: echo -e "Release Notes:\n" > release_notes.md
 
       - name: Release Notes
         run: git --no-pager log -3 --oneline --no-decorate >> release_notes.md
@@ -37,7 +37,7 @@ jobs:
         uses: softprops/action-gh-release@v0.1.14
         with:
           tag_name: latest
-          name: Download
+          name: Downloads
           body_path: release_notes.md
           files: |
             stochas-skins.zip
