@@ -18,6 +18,8 @@ jobs:
           path: surge-skins/surge-xt/modern-dark-xt.surge-skin
       - name: Release
         uses: softprops/action-gh-release@v1
+        with:
+          files: modern-dark
 
   Zip-Modern-Dark-Blue:
     runs-on: ubuntu-latest
