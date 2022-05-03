@@ -1,6 +1,6 @@
 # [Skins](https://surge-synthesizer.github.io/skin-library) for [Surge Synthesizer](https://surge-synthesizer.github.io/) & [Stochas](https://stochas.org/)
 
-## [&#10507; Downloads](https://github.com/mthierman/surge-skins/releases/tag/skins)
+**[&#10507; Downloads](https://github.com/mthierman/surge-skins/releases/tag/skins)**
 
 ## Stochas Skins
 
