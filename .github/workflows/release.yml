@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: List
+      - name: List Files
         run: ls ${{ github.workspace }}
 
       - name: Zip Stochas
@@ -43,12 +43,13 @@ jobs:
           files: surge-skins/surge-xt/dark-purple-xt.surge-skin
           dest: dark-purple.zip
 
-      - name: List files in the repository
+      - name: List Files
         run: ls ${{ github.workspace }}
 
-      - name: Release
+      - name: Test
         uses: softprops/action-gh-release@v0.1.14
         with:
+          body: body_test
           files: |
             stochas-skins.zip
             modern-dark.zip
