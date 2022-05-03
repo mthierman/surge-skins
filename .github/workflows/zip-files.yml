@@ -20,6 +20,9 @@ jobs:
         with:
           name: modern-dark
           path: surge-skins/surge-xt/modern-dark-xt.surge-skin
+      - name: List files in the repository
+        run: |
+        ls ${{ github.workspace }}
       - name: Release
         uses: softprops/action-gh-release@v0.1.14
         with:
