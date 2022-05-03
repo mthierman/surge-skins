@@ -19,31 +19,16 @@ jobs:
         run: ls ${{ github.workspace }}
 
       - name: Zip Stochas
-        run: zip -r stochas-skins-test.zip stochas-skins
+        run: zip -r stochas-skins.zip stochas-skins
 
-      - name: Zip Stochas
-        uses: vimtor/action-zip@v1
-        with:
-          files: stochas-skins
-          dest: stochas-skins.zip
+      - name: Zip Dark Modern
+        run: zip -r dark-modern.zip surge-skins/surge-xt/modern-dark-xt.surge-skin
 
-      - name: Zip Modern Dark
-        uses: vimtor/action-zip@v1
-        with:
-          files: surge-skins/surge-xt/modern-dark-xt.surge-skin
-          dest: modern-dark.zip
-
-      - name: Zip Modern Dark Blue
-        uses: vimtor/action-zip@v1
-        with:
-          files: surge-skins/surge-xt/modern-dark-blue-xt.surge-skin
-          dest: modern-dark-blue.zip
+      - name: Zip Dark Modern Blue
+        run: zip -r dark-modern-blue.zip surge-skins/surge-xt/modern-dark-blue-xt.surge-skin
 
       - name: Zip Dark Purple
-        uses: vimtor/action-zip@v1
-        with:
-          files: surge-skins/surge-xt/dark-purple-xt.surge-skin
-          dest: dark-purple.zip
+        run: zip -r dark-purple.zip surge-skins/surge-xt/dark-purple-xt.surge-skin
 
       - name: Release Notes
         run: git --no-pager log -5 --oneline --no-decorate
@@ -68,4 +53,3 @@ jobs:
             modern-dark.zip
             modern-dark-blue.zip
             dark-purple.zip
-            stochas-skins-test.zip
