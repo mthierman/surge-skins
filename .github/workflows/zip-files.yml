@@ -2,6 +2,9 @@ name: Zip Files
 
 on: [push]
 
+permissions:
+  contents: write
+
 jobs:
 
   Zip-Modern-Dark:
@@ -21,21 +24,3 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: modern-dark
-
-  Zip-Modern-Dark-Blue:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Zip
-        uses: vimtor/action-zip@v1
-        with:
-          files: surge-skins/surge-xt/modern-dark-blue-xt.surge-skin
-          dest: skins/modern-dark-blue.zip
-
-  Zip-Modern-Dark-Purple:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Zip
-        uses: vimtor/action-zip@v1
-        with:
-          files: surge-skins/surge-xt/dark-purple-xt.surge-skin
-          dest: skins/dark-purple.zip
