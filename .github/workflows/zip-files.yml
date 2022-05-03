@@ -17,7 +17,12 @@ jobs:
         uses: vimtor/action-zip@v1
         with:
           files: surge-skins/surge-xt/modern-dark-xt.surge-skin
-          dest: skins/modern-dark.zip
+          dest: modern-dark.zip
+      - name: Publish
+        uses: actions/upload-artifact@v3
+        with:
+          name: modern-dark
+          path: modern-dark.zip
 
   Zip-Modern-Dark-Blue:
     runs-on: ubuntu-latest
@@ -36,12 +41,3 @@ jobs:
         with:
           files: surge-skins/surge-xt/dark-purple-xt.surge-skin
           dest: skins/dark-purple.zip
-
-  Publish:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Publish
-        uses: actions/upload-artifact@v3
-        with:
-          name: Zip Folder
-          path: skins/*
