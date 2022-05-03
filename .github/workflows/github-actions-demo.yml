@@ -17,9 +17,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
 name: Zip Files
-on:
-  release:
-    types: [published]
+on: [push]
 jobs:
   zip-files:
     runs-on: ubuntu-latest
