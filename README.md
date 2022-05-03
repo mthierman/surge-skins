@@ -1,10 +1,12 @@
 # [Skins](https://surge-synthesizer.github.io/skin-library) for [Surge Synthesizer](https://surge-synthesizer.github.io/) & [Stochas](https://stochas.org/)
 
-## [Downloads](https://github.com/mthierman/surge-skins/releases/tag/skins)
+[Downloads](https://github.com/mthierman/surge-skins/releases/tag/skins):
 
-## [&#11015; Stochas Skin Pack](https://github.com/mthierman/surge-skins/releases/download/skins/stochas-skins.zip)
+## Stochas Skins
 
-## Individual Surge Skins:
+### [&#11015; Stochas Skin Pack](https://github.com/mthierman/surge-skins/releases/download/skins/stochas-skins.zip)
+
+## Surge Skins:
 
 ### [&#11015; Modern Dark](https://github.com/mthierman/surge-skins/releases/download/skins/modern-dark.zip)
 ![Modern Dark](/screenshots/modern-dark.png)
