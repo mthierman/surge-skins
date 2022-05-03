@@ -1,8 +1,9 @@
 name: Zip Files
 
-on: push
+on: [push]
 
 jobs:
+
   zip-files:
     name: Zip Files
     runs-on: ubuntu-latest
