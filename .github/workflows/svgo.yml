@@ -17,10 +17,7 @@ jobs:
           submodules: recursive
 
       - name: SVGO
-        run: cd surge-skins/surge-xt/ && npx svgo */SVG && cd ../
+        run: cd surge-skins/surge-xt/ && ls && npx svgo */SVG && cd ../ && ls
 
-      - name: Artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: skins
-          path: surge-xt/*
+      - name: Git
+        run: git add . && git commit -m 'SVGO Compression'
