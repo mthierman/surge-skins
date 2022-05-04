@@ -19,5 +19,8 @@ jobs:
       - name: SVGO
         run: cd surge-skins/surge-xt/ && ls && npx svgo */SVG && cd ../ && ls
 
+      - name: Git credential
+        run: git config --global user.email "mthierman@gmail.com" && git config --global user.name "Mike Thierman"
+
       - name: Git
-        run: git add . && git commit -m 'SVGO Compression'
+        run: git commit -am 'SVGO Compression' && git push
