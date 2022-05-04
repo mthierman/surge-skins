@@ -1,20 +1,18 @@
 name: SVGO
 
-on: workflow_dispatch
+on: [workflow_dispatch]
 
 permissions:
   contents: write
 
 jobs:
 
-  Test2:
+  SVGO:
     runs-on: ubuntu-latest
     steps:
 
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          submodules: recursive
 
       - name: SVGO
         run: cd surge-skins/surge-xt/ && ls && npx svgo */SVG && cd ../ && ls

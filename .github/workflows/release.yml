@@ -7,6 +7,21 @@ permissions:
 
 jobs:
 
+  SVGO:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: SVGO
+        run: cd surge-skins/surge-xt/ && ls && npx svgo */SVG && cd ../ && ls
+
+      - name: Git credential
+        run: git config --global user.email "mthierman@gmail.com" && git config --global user.name "Mike Thierman"
+
+      - name: Git
+        run: git commit -am 'SVGO Compression' && git push
+
   Release:
     runs-on: ubuntu-latest
     steps:
