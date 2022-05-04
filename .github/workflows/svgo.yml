@@ -21,4 +21,4 @@ jobs:
         run: git config --global user.email "mthierman@gmail.com" && git config --global user.name "Mike Thierman"
 
       - name: Git
-        run: git commit -am 'SVGO Compression' && git push
+        run: git commit -am 'SVGO Compression' || true && git push || true
