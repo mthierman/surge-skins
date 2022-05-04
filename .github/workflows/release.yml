@@ -18,20 +18,11 @@ jobs:
       - name: Zip Stochas
         run: zip -r stochas-skins.zip stochas-skins
 
-      - name: Zip Dark Modern
-        run: zip -r modern-dark.zip surge-skins/surge-xt/modern-dark-xt.surge-skin
-
-      - name: Zip Dark Modern Blue
-        run: zip -r modern-dark-blue.zip surge-skins/surge-xt/modern-dark-blue-xt.surge-skin
-
-      - name: Zip Dark Purple
-        run: zip -r dark-purple.zip surge-skins/surge-xt/dark-purple-xt.surge-skin
+      - name: Zip Skins
+        run: cd surge-skins/surge-xt/; for i in *; do zip -r "$i.zip" $i; done;
 
       - name: Changes
-        run: echo -e "Changes:\n" > changes.md
-
-      - name: Git Log
-        run: git --no-pager log -5 --oneline --no-decorate >> changes.md
+        run: echo -e "Changes:\n" > changes.md && git --no-pager log -5 --oneline --no-decorate >> changes.md
 
       - name: Release
         uses: softprops/action-gh-release@v0.1.14
@@ -40,7 +31,5 @@ jobs:
           name: Downloads
           body_path: changes.md
           files: |
-            stochas-skins.zip
-            modern-dark.zip
-            modern-dark-blue.zip
-            dark-purple.zip
+            *.zip
+            surge-skins/surge-xt/*.zip
