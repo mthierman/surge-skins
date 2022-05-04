@@ -30,6 +30,15 @@ jobs:
         with:
           fetch-depth: 5
 
+      - name: SVGO
+        run: cd surge-skins/surge-xt/ && ls && npx svgo */SVG && cd ../../ && ls
+
+      - name: Git credential
+        run: git config --global user.email "mthierman@gmail.com" && git config --global user.name "Mike Thierman"
+
+      - name: Git
+        run: git commit -am 'SVGO Compression' && git push
+
       - name: Zip Stochas
         run: zip -r stochas-skins.zip stochas-skins
 
