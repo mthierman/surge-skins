@@ -17,4 +17,8 @@ jobs:
           submodules: recursive
 
       - name: SVGO
-        run: cd surge-skins/surge-xt/ && npx svgo
+        run: cd surge-skins/surge-xt/ && npx svgo */SVG
+
+
+      - name: Artifact
+        uses: actions/upload-artifact@v3
