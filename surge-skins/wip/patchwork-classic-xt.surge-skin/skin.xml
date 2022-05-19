@@ -1,0 +1,197 @@
+<surge-skin name="Patchwork Classic" author="Surge Synth Team" authorURL="https://surge-synth-team.org/" version="2">
+
+    <globals>
+        <window-size x="404" y="200"/>
+        <defaultimage directory="SVG/"/>
+    </globals>
+
+    <component-classes>
+    </component-classes>
+
+    <controls>
+  
+        <control ui_identifier="aeg.attack" class="none"/>
+        <control ui_identifier="aeg.attack_shape" class="none"/>
+        <control ui_identifier="aeg.decay" class="none"/>
+        <control ui_identifier="aeg.decay_shape" class="none"/>
+        <control ui_identifier="aeg.mode" class="none"/>
+        <control ui_identifier="aeg.panel" class="none"/>
+        <control ui_identifier="aeg.release" class="none"/>
+        <control ui_identifier="aeg.release_shape" class="none"/>
+        <control ui_identifier="aeg.sustain" class="none"/>
+
+        <control ui_identifier="controls.action.redo" x="298" y="42"/>
+        <control ui_identifier="controls.action.undo" x="283" y="42"/>
+        <control ui_identifier="controls.category.prevnext" x="7" y="42"/>
+        <control ui_identifier="controls.modulation.panel" class="none"/>
+        <control ui_identifier="controls.patch.prevnext" x="96" y="42"/>
+        <control ui_identifier="controls.patch.save" x="360" y="42"/>
+        <control ui_identifier="controls.patch.save.window" w="404" h="200"/>
+        <control ui_identifier="controls.patch_browser" x="7" y="12"/>
+        <control ui_identifier="controls.status.mpe" class="none"/>
+        <control ui_identifier="controls.status.panel" class="none"/>
+        <control ui_identifier="controls.status.tune" class="none"/>
+        <control ui_identifier="controls.status.zoom" class="none"/>
+        <control ui_identifier="controls.surge_menu" class="none"/>
+        <control ui_identifier="controls.vu_meter" class="none"/>
+
+        <control ui_identifier="feg.attack" class="none"/>
+        <control ui_identifier="feg.attack_shape" class="none"/>
+        <control ui_identifier="feg.decay" class="none"/>
+        <control ui_identifier="feg.decay_shape" class="none"/>
+        <control ui_identifier="feg.mode" class="none"/>
+        <control ui_identifier="feg.panel" class="none"/>
+        <control ui_identifier="feg.release" class="none"/>
+        <control ui_identifier="feg.release_shape" class="none"/>
+        <control ui_identifier="feg.sustain" class="none"/>
+
+        <control ui_identifier="filter.balance" class="none"/>
+        <control ui_identifier="filter.config" class="none"/>
+        <control ui_identifier="filter.cutoff_1" class="none"/>
+        <control ui_identifier="filter.cutoff_2" class="none"/>
+        <control ui_identifier="filter.envmod_1" class="none"/>
+        <control ui_identifier="filter.envmod_2" class="none"/>
+        <control ui_identifier="filter.f2_link_resonance" class="none"/>
+        <control ui_identifier="filter.f2_offset_mode" class="none"/>
+        <control ui_identifier="filter.feedback" class="none"/>
+        <control ui_identifier="filter.filter_preview" class="none"/>
+        <control ui_identifier="filter.highpass" class="none"/>
+        <control ui_identifier="filter.keytrack_1" class="none"/>
+        <control ui_identifier="filter.keytrack_2" class="none"/>
+        <control ui_identifier="filter.resonance_1" class="none"/>
+        <control ui_identifier="filter.resonance_2" class="none"/>
+        <control ui_identifier="filter.subtype_1" class="none"/>
+        <control ui_identifier="filter.subtype_2" class="none"/>
+        <control ui_identifier="filter.type_1" class="none"/>
+        <control ui_identifier="filter.type_2" class="none"/>
+        <control ui_identifier="filter.waveshaper_drive" class="none"/>
+        <control ui_identifier="filter.waveshaper_preview" class="none"/>
+        <control ui_identifier="filter.waveshaper_prevnext" class="none"/>
+        <control ui_identifier="filter.waveshaper_type" class="none"/>
+
+        <control ui_identifier="formulaeditor.window" class="none"/>
+
+        <control ui_identifier="fx.param.panel" class="none"/>
+        <control ui_identifier="fx.param_1" class="none"/>
+        <control ui_identifier="fx.param_2" class="none"/>
+        <control ui_identifier="fx.param_3" class="none"/>
+        <control ui_identifier="fx.param_4" class="none"/>
+        <control ui_identifier="fx.param_5" class="none"/>
+        <control ui_identifier="fx.param_6" class="none"/>
+        <control ui_identifier="fx.param_7" class="none"/>
+        <control ui_identifier="fx.param_8" class="none"/>
+        <control ui_identifier="fx.param_9" class="none"/>
+        <control ui_identifier="fx.param_10" class="none"/>
+        <control ui_identifier="fx.param_11" class="none"/>
+        <control ui_identifier="fx.param_12" class="none"/>
+        <control ui_identifier="fx.preset.name" class="none"/>
+        <control ui_identifier="fx.preset.prevnext" class="none"/>
+        <control ui_identifier="fx.selector" class="none"/>
+        <control ui_identifier="fx.type" class="none"/>
+
+        <control ui_identifier="global.active_scene" class="none"/>
+        <control ui_identifier="global.character" class="none"/>
+        <control ui_identifier="global.fx1_return" class="none"/>
+        <control ui_identifier="global.fx2_return" class="none"/>
+        <control ui_identifier="global.fx3_return" class="none"/>
+        <control ui_identifier="global.fx4_return" class="none"/>
+        <control ui_identifier="global.fx_bypass" class="none"/>
+        <control ui_identifier="global.fx_disable" class="none"/>
+        <control ui_identifier="global.scene_mode" class="none"/>
+        <control ui_identifier="global.volume" class="none"/>
+
+        <control ui_identifier="lfo.amplitude" class="none"/>
+        <control ui_identifier="lfo.attack" class="none"/>
+        <control ui_identifier="lfo.decay" class="none"/>
+        <control ui_identifier="lfo.deform" class="none"/>
+        <control ui_identifier="lfo.delay" class="none"/>
+        <control ui_identifier="lfo.envelope.panel" class="none"/>
+        <control ui_identifier="lfo.hold" class="none"/>
+        <control ui_identifier="lfo.main.panel" class="none"/>
+        <control ui_identifier="lfo.mseg_editor" class="none"/>
+        <control ui_identifier="lfo.phase" class="none"/>
+        <control ui_identifier="lfo.presets" class="none"/>
+        <control ui_identifier="lfo.rate" class="none"/>
+        <control ui_identifier="lfo.release" class="none"/>
+        <control ui_identifier="lfo.shape" class="none"/>
+        <control ui_identifier="lfo.sustain" class="none"/>
+        <control ui_identifier="lfo.title" class="none"/>
+        <control ui_identifier="lfo.trigger_mode" class="none"/>
+        <control ui_identifier="lfo.unipolar" class="none"/>
+
+        <control ui_identifier="mixer.level_noise" class="none"/>
+        <control ui_identifier="mixer.level_o1" class="none"/>
+        <control ui_identifier="mixer.level_o2" class="none"/>
+        <control ui_identifier="mixer.level_o3" class="none"/>
+        <control ui_identifier="mixer.level_prefiltergain" class="none"/>
+        <control ui_identifier="mixer.level_ring12" class="none"/>
+        <control ui_identifier="mixer.level_ring23" class="none"/>
+        <control ui_identifier="mixer.mute_noise" class="none"/>
+        <control ui_identifier="mixer.mute_o1" class="none"/>
+        <control ui_identifier="mixer.mute_o2" class="none"/>
+        <control ui_identifier="mixer.mute_o3" class="none"/>
+        <control ui_identifier="mixer.mute_ring12" class="none"/>
+        <control ui_identifier="mixer.mute_ring23" class="none"/>
+        <control ui_identifier="mixer.panel" class="none"/>
+        <control ui_identifier="mixer.route_noise" class="none"/>
+        <control ui_identifier="mixer.route_o1" class="none"/>
+        <control ui_identifier="mixer.route_o2" class="none"/>
+        <control ui_identifier="mixer.route_o3" class="none"/>
+        <control ui_identifier="mixer.route_ring12" class="none"/>
+        <control ui_identifier="mixer.route_ring23" class="none"/>
+        <control ui_identifier="mixer.solo_noise" class="none"/>
+        <control ui_identifier="mixer.solo_o1" class="none"/>
+        <control ui_identifier="mixer.solo_o2" class="none"/>
+        <control ui_identifier="mixer.solo_o3" class="none"/>
+        <control ui_identifier="mixer.solo_ring12" class="none"/>
+        <control ui_identifier="mixer.solo_ring23" class="none"/>
+
+        <control ui_identifier="modlist.window" class="none"/>
+
+        <control ui_identifier="msegeditor.window" class="none"/>
+
+        <control ui_identifier="osc.display" class="none"/>
+        <control ui_identifier="osc.keytrack" class="none"/>
+        <control ui_identifier="osc.octave" class="none"/>
+        <control ui_identifier="osc.param.panel" class="none"/>
+        <control ui_identifier="osc.param_1" class="none"/>
+        <control ui_identifier="osc.param_2" class="none"/>
+        <control ui_identifier="osc.param_3" class="none"/>
+        <control ui_identifier="osc.param_4" class="none"/>
+        <control ui_identifier="osc.param_5" class="none"/>
+        <control ui_identifier="osc.param_6" class="none"/>
+        <control ui_identifier="osc.param_7" class="none"/>
+        <control ui_identifier="osc.pitch" class="none"/>
+        <control ui_identifier="osc.retrigger" class="none"/>
+        <control ui_identifier="osc.select" class="none"/>
+        <control ui_identifier="osc.type" class="none"/>
+
+        <control ui_identifier="scene.drift" class="none" x="5000" y="5000"/>
+        <control ui_identifier="scene.fmdepth" class="none" x="5000" y="5000"/>
+        <control ui_identifier="scene.fmrouting" class="none"/>
+        <control ui_identifier="scene.gain" class="none"/>
+        <control ui_identifier="scene.keytrack_root" class="none"/>
+        <control ui_identifier="scene.noise_color" class="none" x="5000" y="5000"/>
+        <control ui_identifier="scene.octave" class="none"/>
+        <control ui_identifier="scene.output.panel" class="none"/>
+        <control ui_identifier="scene.pan" class="none"/>
+        <control ui_identifier="scene.pbrange_dn" class="none"/>
+        <control ui_identifier="scene.pbrange_up" class="none"/>
+        <control ui_identifier="scene.pitch" class="none"/>
+        <control ui_identifier="scene.playmode" class="none"/>
+        <control ui_identifier="scene.polylimit" class="none"/>
+        <control ui_identifier="scene.portamento" class="none"/>
+        <control ui_identifier="scene.send_fx_1" class="none"/>
+        <control ui_identifier="scene.send_fx_2" class="none"/>
+        <control ui_identifier="scene.send_fx_3" class="none"/>
+        <control ui_identifier="scene.send_fx_4" class="none"/>
+        <control ui_identifier="scene.splitpoint" class="none"/>
+        <control ui_identifier="scene.velocity_sensitivity" class="none"/>
+        <control ui_identifier="scene.volume" class="none"/>
+        <control ui_identifier="scene.width" class="none"/>
+
+        <control ui_identifier="tuningeditor.window" class="none"/>
+
+    </controls>
+
+</surge-skin>
